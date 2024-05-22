@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/avr-usage.css" />
+        <title>AVR Usage</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="images/Logo.png" />
+        </header>
+
+        <section id="menu">
+            <div class="items">
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="/">Dashboard</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="/avr">AVR Usage</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="/books-borrowed">Books Borrowed</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="/books-returned">Books Returned</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="/documents">Documents</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="/calendar">Calendar</a>
+                </li>
+            </div>
+        </section>
+
+        <main class="main">
+            <div class="card">
+                <div class="input-box">
+                    <span class="name"></span>
+                    <input
+                        type="text"
+                        placeholder="Name of Occupant(s)"
+                        required
+                    />
+                    <div class="input-box">
+                        <span class="department"></span>
+                        <input
+                            type="text"
+                            placeholder="Strand/Course/Department"
+                            required
+                        />
+                    </div>
+                    <div class="input-box">
+                        <span class="book"></span>
+                        <input type="text" placeholder="Purpose" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="date"></span>
+                        <input type="text" placeholder="Time Taken" required />
+                    </div>
+                    <button>Submit</button>
+                </div>
+            </div>
+            <div class="card">erm</div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

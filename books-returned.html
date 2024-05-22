@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/books-returned.css" />
+        <title>Books Returned</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="images/Logo.png" />
+        </header>
+
+        <section id="menu">
+            <div class="items">
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="./index.html">Dashboard</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="./avr-usage.html">AVR Usage</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="./books-borrowed.html">Books Borrowed</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="./books-returned.html">Books Returned</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="./documents.html">Documents</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="./calendar.html">Calendar</a>
+                </li>
+                <li>
+                    <i class="las la-list-alt"></i>
+                    <a href="./login.html">Log Out</a>
+                </li>
+            </div>
+        </section>
+
+        <main class="main">
+            <div class="card">
+                <div class="input-box">
+                    <span class="name"></span>
+                    <input
+                        type="text"
+                        placeholder="Name of the Returner"
+                        required
+                    />
+                    <div class="input-box">
+                        <span class="department"></span>
+                        <input
+                            type="text"
+                            placeholder="Strand/Course/Department"
+                            required
+                        />
+                    </div>
+                    <div class="input-box">
+                        <span class="book"></span>
+                        <input
+                            type="text"
+                            placeholder="Name of the Book"
+                            required
+                        />
+                    </div>
+                    <div class="input-box">
+                        <span class="date"></span>
+                        <input
+                            type="text"
+                            placeholder="Date Returned"
+                            required
+                        />
+                    </div>
+                    <button>Submit</button>
+                </div>
+            </div>
+            <div class="card">erm</div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
